@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Raleway:wght@700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
 
@@ -22,6 +21,8 @@ body, h1, h2, p, figure, .menu {
 
 img { max-width: 100%; }
 
+
+
 h1 {
     font-family: Raleway, sans-serif;
     text-transform: uppercase;
@@ -44,13 +45,15 @@ header .limitador {
     align-items: center;
     justify-content: space-between;
     height: 12vh;
+    
 }
 
 header {
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: var(--cor-clara);
+
+    
 }
 
 
@@ -70,6 +73,7 @@ nav h2 a:hover, nav h2 a:focus,
 /* Regra da lista ul de links */
 .menu { 
     list-style: none; 
+    background-color: green;
 
     /* ATENÇÃO!
     Usamos display:none para
@@ -445,8 +449,3 @@ com  as seguintes alterações:
 
 
 
-=======
-.nav {
-	
-}
->>>>>>> 1e558a18dc0f6aa00ecb12c56d6ed2cbdc09144d
