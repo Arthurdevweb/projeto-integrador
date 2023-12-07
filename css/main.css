@@ -1,3 +1,8 @@
+body {
+  background-color: rgb(54, 176, 224);
+}
+
+
 .menu-toggle {
     position: fixed;
     right: 15px;
@@ -127,4 +132,20 @@
     background: rgb(112, 175, 196);
     border-left: 1px solid rgba(255, 255, 255, 0.1);
   }
+
+
+.container {
+  width: 400px;
+  height: 200px;
+  display: flex; 
+  display:inline-block ;
+  margin: 20px;
+  border: orange solid 3px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+}
   
